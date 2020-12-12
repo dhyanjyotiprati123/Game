@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.hide {
+  display: none;
+}
+
+.carGame {
+  width: 100vw;
+  height: 100vh;
+  background: url("/bg.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.score {
+  width: 20rem;
+  height: 6rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: #4e8d7c;
+  color: #FFF;
+  text-align: center;
+  font-size: 2rem;
+  -webkit-box-shadow: 0 5px 10px grey;
+          box-shadow: 0 5px 10px grey;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.start {
+  width: 50rem;
+  height: 12rem;
+  background-color: #dff3e3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #045762;
+  -webkit-box-shadow: 0 5px 15px grey;
+          box-shadow: 0 5px 15px grey;
+  z-index: 1;
+}
+
+.start P {
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #045762;
+}
+
+.gameArea {
+  width: 45rem;
+  height: 100vh;
+  margin: auto;
+  background-color: #495464;
+  position: relative;
+  border-left: .5rem dashed #fff;
+  border-right: .5rem dashed #fff;
+}
+
+.gameArea .car {
+  height: 7rem;
+  width: 5rem;
+  background: url("/car.jpg") center no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 20rem;
+  bottom: 5rem;
+}
+
+.gameArea .lines {
+  width: 1rem;
+  height: 10rem;
+  background-color: #fff;
+  position: absolute;
+  margin-left: 22rem;
+}
+
+.gameArea .enemy {
+  height: 7rem;
+  width: 5rem;
+  background-color: blue;
+  position: absolute;
+  bottom: 5rem;
+}
+/*# sourceMappingURL=main.css.map */
